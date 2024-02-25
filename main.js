@@ -80,7 +80,7 @@ n1.addEventListener('click', () => {
 
 
 function showQuestion() {
-  // startTimer();
+   startTimer();
   //destructuring the elements
   const { question, correctAns, ans } = quesJSON[currQ];
   //setting the text content
